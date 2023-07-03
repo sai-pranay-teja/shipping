@@ -6,3 +6,4 @@ env.app_lang = "maven"
 env.sonar_opts = "-Dsonar.java.binaries=./target"
 
 ci()
+//B1
