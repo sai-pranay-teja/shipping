@@ -3,3 +3,8 @@ params: "CART_ENDPOINT:dev.shipping.cart_endpoint,DB_HOST:dev.rds.endpoint"
 # params: "CART_ENDPOINT:dev.shipping.cart_endpoint,DB_HOST:dev.shipping.db_host"
 
 env: dev
+
+
+schema:
+  create: true
+  type: mysql
