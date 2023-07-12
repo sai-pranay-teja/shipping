@@ -8,3 +8,13 @@ env: dev
 schema:
   create: true
   type: mysql
+
+
+resources:
+   limits:
+     cpu: 1300m
+     memory: 1500Mi
+   requests:
+     cpu: 1000m
+     memory: 1250Mi
+
